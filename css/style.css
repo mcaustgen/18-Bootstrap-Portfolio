@@ -9,6 +9,15 @@ h2 {
     font-size: 100px;
     font-weight: bold;
 }
+h5{
+  font-family:'Sacramento', cursive;
+  font-size: 36px;
+  
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
 .customNav {
     position: fixed;
@@ -44,7 +53,7 @@ h2 {
   }
 
   .jumbotron {
-    background-image: url(../18-Bootstrap-Portfolio/Images/background-1.png);
+    background-image: url("../Images/background-1.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(110vh - 25px);
@@ -83,9 +92,7 @@ h2 {
     margin-left:20px;
 }
 /* Cards */
-.content {
-    padding: 50px;
-  }
+
 h3 {
     text-align: center;
     font-size: 36pt;
@@ -94,8 +101,111 @@ h3 {
 
   }
   .work  {
-    padding: 0px 30px 30px 30px;
+    padding: 0px 0px 30px 30px;
   }
   .cardContainer {
     text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
   }
+  .card {
+    margin: 20px auto;
+  }
+  .card-body {
+    width: 85%;
+    height: fit-content;
+    margin-left: 15px;
+}
+
+ .cardContainer a{
+  font-size: 20px;
+  color:white !important;
+  background-color:black !important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: right !important;
+  margin:10px;
+ } 
+
+ .contact2{
+   padding-top:150px;
+ }
+.quote{
+  padding-top:150px;
+  margin: 0px auto;
+  padding:140px;
+}
+ .blockquote{
+  background-color:black;
+  font-size: 30px;
+  color:white;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  justify-content: center !important;
+  padding: 20px;
+}
+
+.card-img-overlay{
+  margin-top: 50px;
+}
+.card-img-overlay p{
+  color:black !important;
+  text-align: center !important; 
+  margin:50px;
+  font-size: 20px;
+}
+.card-img-overlay h5{
+  color:black !important;
+  text-align: center !important; 
+  font-size: 80px !important;
+  padding-bottom:80px;
+}
+
+
+  .footer {
+    margin: 0px auto;
+    margin-top: 150px;
+    line-height: 60px;
+    color: white;
+    background-color: black;
+    width: 100% !important;
+    height: 70px;
+
+}
+.logo2 {
+    float: left;
+    padding-left: 30px;
+    font-size: 18pt;
+    font-family: 'Sacramento', cursive;
+    margin: 0px auto;
+}
+
+.logo2 a{
+    margin: 0px auto;
+    padding-left:30px;
+}
+
+.footer-right{
+    float: right;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer-right a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+.btn-outline-hire1 {
+  border-radius: 5px;
+  font-size: 16px;
+  background-color:white;
+  cursor:pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left:40px;
+  color:black;
+  text-align: right;
+
+}
