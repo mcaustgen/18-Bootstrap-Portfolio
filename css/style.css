@@ -39,6 +39,7 @@ p {
     width: 65px;
     font-size: 24pt;
     font-family: 'Raleway', sans-serif;
+    color: rgb(3, 158, 197) !important;
   }
   .nav-item {
     margin: 0px 10px;
