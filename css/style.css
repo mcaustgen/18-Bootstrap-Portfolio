@@ -12,7 +12,7 @@ h2 {
     margin-bottom: -10px 
 }
 h5{
-  font-family:'Sacramento', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 36px;
 }
 
@@ -37,8 +37,8 @@ p {
 .navbar-brand {
     padding-right: 15px;
     width: 65px;
-    font-size: 32pt;
-    font-family: 'Sacramento', cursive;
+    font-size: 24pt;
+    font-family: 'Raleway', sans-serif;
   }
   .nav-item {
     margin: 0px 10px;
@@ -102,7 +102,7 @@ p {
 h3 {
     text-align: center;
     font-size: 36pt;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Raleway', sans-serif;
     padding-top:70px;
 
   }
@@ -175,8 +175,18 @@ h3 {
   background-color:black !important;
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: right !important;
-
  } 
+
+.aboutme p{
+  padding-right:60px;
+} 
+
+.aboutme{
+  margin-top: 120px !important;
+  margin-bottom:100px !important;
+  margin:120px;
+  justify-content: center;
+}
 
 .contact2{
    padding-top:150px;
@@ -236,7 +246,7 @@ h3 {
     float: left;
     padding-left: 30px;
     font-size: 18pt;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Raleway', sans-serif;
     margin: 0px auto;
 }
 
